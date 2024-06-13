@@ -1,0 +1,52 @@
+@charset "utf-8";
+h1{
+    text-align:center;
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+}
+
+
+h2{
+    width: 90%;
+    margin: auto;
+
+}
+
+
+p{
+    width: 90%;
+    margin: auto;
+    margin-top: 10px;
+
+}
+
+.item{
+    background-color: aquamarine;
+    width: 25%;
+    margin: 10px;
+}
+
+div{
+    
+    text-align: center;
+    margin: auto
+}
+
+a{
+    border-radius: 20px;
+    width: 150px;
+    display: block;
+    text-decoration:none;
+    background-color: aqua;
+    margin: auto;
+}
+
+.gazou img{
+    width: 200px;
+    height: 200px;
+    margin: auto;
+}
+
