@@ -1,0 +1,24 @@
+/*記述済みの部分は変更しないでください！*/
+
+@charset "utf-8";
+
+.mark-list {
+    list-style: "★";
+    list-style: none;
+
+}
+
+.Q{
+    list-style: "Q";
+    font-size: 20px;
+}
+
+.A{
+    list-style: "A";
+    margin: 15px;
+    padding-right: 10px;
+}
+
+body{
+    background-color: antiquewhite;
+}

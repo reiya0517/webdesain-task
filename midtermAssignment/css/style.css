@@ -1,0 +1,38 @@
+/* 全ページに適用 */
+@charset "utf-8";
+header {
+    background-color: #dce6e6;
+    padding: 0.5rem;
+}
+
+header {
+    width: 100%;
+}
+
+header ul {
+    display: flex;
+    list-style: none;
+    padding: 0px;
+}
+
+header ul li {
+    width: 20%;
+    text-align: center;
+}
+
+header ul li a {
+    display: block;
+    padding: 0.5rem;
+    color: #00552e;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+body {
+    min-width: 700px;
+}
+
+header ul li+li {
+    border-left: 2px solid #00552e;
+}
+
