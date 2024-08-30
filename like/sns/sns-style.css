@@ -1,0 +1,146 @@
+header {
+    height: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 200px;
+}
+
+img {
+    width: 300px;
+    height: 200px;
+}
+
+body {
+    font-family: "Reggae One Regular", serif;
+    background-image: url(../img/ekusu.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    color: white
+}
+
+.global-nav {
+    display: flex;
+    margin-top: 60px;
+    color: white
+}
+
+
+a {
+    color: white
+}
+
+footer {
+    margin-left: 100px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    color: white;
+}
+
+li {
+    font-size: 25px;
+    margin-left: 70px;
+    margin-top: 30px;
+
+}
+
+h1 {
+    font-size: 60px;
+    margin-left: 40px;
+}
+
+
+.snsall {
+    display: flex;
+}
+
+.img4 {
+    width: 50%;
+    height: 50%;
+}
+
+.sns1 {
+    width: 30%;
+    height: 30%;
+}
+
+.sns2 {
+    width: 30%;
+    height: 30%;
+}
+
+.sns3 {
+    width: 30%;
+    height: 30%;
+}
+
+.sns4 {
+    width: 30%;
+    height: 30%;
+}
+
+.sns5 {
+    width: 30%;
+    height: 30%;
+}
+
+
+
+
+
+.sns1:hover {
+    transform: translateY(-5px);
+}
+
+
+.sns2:hover {
+    transform: translateY(-5px);
+}
+
+.sns3:hover {
+    transform: translateY(-5px);
+}
+
+.sns4:hover {
+    transform: translateY(-5px);
+}
+
+.sns5:hover {
+    transform: translateY(-5px);
+}
+
+li {
+    transition-duration: .4s;
+}
+
+li:hover {
+    transform: scale(1.1);
+}
+
+
+.btn {
+    display: block;
+    font-size: 20px;
+    width: 185px;
+    text-align: center;
+    line-height: 2.5;
+    margin-top: 20px;
+    margin-left: 30px;
+    color: white
+}
+
+
+.btn:hover {
+    text-decoration: none;
+    color: red;
+}
+
+.img5 {
+    transition-duration: .4s;
+}
+
+.img5:hover {
+    transform: scale(1.1);
+}
+

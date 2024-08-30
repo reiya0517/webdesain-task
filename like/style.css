@@ -1,0 +1,161 @@
+header {
+    height: 100px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+img {
+    width: 300px;
+    height: 200px;
+}
+
+
+.setumei {
+    margin-top: 150px;
+}
+
+body {
+    font-family: "Reggae One Regular",serif;
+    background-image: url(img/masa2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    color: white;
+}
+
+h1{
+    font-size: 90px;
+}
+
+.global-nav {
+    display: flex;
+    margin-top: 60px;
+  }
+
+li{
+    font-size: 25px;
+    margin-left: 70px;
+    margin-top: 30px;
+   
+}
+
+
+a{
+    color: white;
+}
+
+.setumei{
+    margin-left: 100px;
+}
+
+footer{
+    margin-left: 100px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+p{
+    font-size: 20px;
+}
+
+
+.btn{
+    display:block;
+    font-size: 20px;
+    color:#ffffff;
+    width: 185px;
+    background-color: red;
+    text-align: center;
+    line-height: 2.5;
+    margin-top: 20px;
+    border-radius: 5px;
+    border:3px solid red;
+    margin-left: 30px;
+  }
+
+  .btn2{
+    display:block;
+    font-size: 20px;
+    color:#ffffff;
+    width: 185px;
+    background-color: #5295D8;
+    text-align: center;
+    line-height: 2.5;
+    margin-top: 20px;
+    border-radius: 5px;
+    border:3px solid #5295d8;
+    margin-left: 30px;
+  }
+
+  .btn3{
+    display:block;
+    font-size: 20px;
+    color:#ffffff;
+    width: 185px;
+    background-color: green;
+    text-align: center;
+    line-height: 2.5;
+    margin-top: 20px;
+    border-radius: 5px;
+    border:3px solid green;
+    margin-left: 30px;
+  }
+
+  
+  
+  .btn:hover{
+    text-decoration: none;
+    background-color: #ffffff;
+    color:red;
+  }
+
+  .btn2:hover{
+    text-decoration: none;
+    background-color: #ffffff;
+    color:#5295d8;
+  }
+
+  .btn3:hover{
+    text-decoration: none;
+    background-color: #ffffff;
+    color:#5295d8;
+  }
+
+.allbtn{
+    display: flex;
+    
+}
+
+li{
+  transition-duration: .4s;
+}
+li:hover {
+  transform: scale(1.1);
+}
+
+.img5 {
+  transition-duration: .4s;
+}
+
+.img5:hover {
+  transform: scale(1.1);
+}
+
+
+.btn4 {
+  display: block;
+  font-size: 20px;
+  width: 185px;
+  text-align: center;
+  line-height: 2.5;
+  margin-top: 20px;
+  margin-left: 30px;
+  color: white;
+}
+
+
+.btn4:hover {
+  text-decoration: none;
+  color: red;
+}

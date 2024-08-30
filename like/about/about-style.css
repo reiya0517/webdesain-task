@@ -1,0 +1,134 @@
+header {
+    height: 100px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+img {
+    width: 300px;
+    height: 200px;
+}
+
+.img2 {
+    width: 15%;
+    height: 15%;
+    margin: auto;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    margin-right: 100px;
+}
+
+
+
+body {
+    font-family: "Reggae One Regular", serif;
+    background-image: url(../img/mana1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    color: black
+}
+
+h1 {
+    font-size: 60px;
+    margin-top: 200px;
+    margin-left: 40px;
+}
+
+.global-nav {
+    display: flex;
+    margin-top: 60px;
+    color: white
+}
+
+li {
+    font-size: 25px;
+    margin-left: 70px;
+    margin-top: 30px;
+}
+
+
+a {
+    color: white
+}
+
+
+
+footer {
+    margin-left: 100px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    color: white
+}
+
+p {
+    font-size: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+    width: 500px;
+}
+
+.asobi {
+    background-color: rgba(199, 198, 198, 0.767)
+}
+
+.asobi1 {
+    display: flex;
+}
+
+
+.asobi2 {
+    display: flex;
+}
+
+
+.asobi3 {
+    display: flex;
+}
+
+
+.asobi4 {
+    display: flex;
+}
+
+h2 {
+
+    margin-left: 90px;
+    border-bottom: solid 10px red;
+}
+
+li {
+    transition-duration: .4s;
+}
+
+li:hover {
+    transform: scale(1.1);
+}
+
+.btn {
+    display: block;
+    font-size: 20px;
+    width: 185px;
+    text-align: center;
+    line-height: 2.5;
+    margin-top: 20px;
+    margin-left: 30px;
+    color: black
+}
+
+
+
+.btn:hover {
+    text-decoration: none;
+    color: red;
+}
+
+.img5 {
+    transition-duration: .4s;
+}
+
+.img5:hover {
+    transform: scale(1.1);
+}
